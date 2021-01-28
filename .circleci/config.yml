@@ -25,5 +25,8 @@ jobs:
           paths:
             - ./node_modules
       - run:
+          name: lint
+          command: npm lint
+      - run:
           name: test
           command: npm test
