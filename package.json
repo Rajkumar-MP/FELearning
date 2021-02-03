@@ -27,7 +27,7 @@
     "start": "web-dev-server"
   },
   "name": "fe-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Webcomponent fe-app following open-wc recommendations",
   "author": "fe-app",
   "license": "MIT",
