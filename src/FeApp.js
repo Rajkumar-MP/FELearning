@@ -55,7 +55,7 @@ export class FeApp extends LitElement {
 
   constructor() {
     super();
-    this.title = 'My app';
+    this.title = 'FE Center Application';
   }
 
   render() {
@@ -74,16 +74,6 @@ export class FeApp extends LitElement {
           Code examples
         </a>
       </main>
-
-      <p class="app-footer">
-        🚽 Made with love by
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/open-wc"
-          >open-wc</a
-        >.
-      </p>
     `;
   }
 }
