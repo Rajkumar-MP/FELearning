@@ -34,4 +34,4 @@ jobs:
     needs: install
     steps:
       - name: deploy
-        run: npm run deploy -- --auth $NETLIFY_ACCESS_TOKEN
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_HOOKS }}
