@@ -1,12 +1,6 @@
 name: Build
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+on: push
 
 jobs:
   install:
@@ -28,7 +22,7 @@ jobs:
         run: npm run test
         
   deploy:
-    if: github.event_name == 'push'
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     name: deployment
     needs: install
