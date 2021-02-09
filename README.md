@@ -1,6 +1,6 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+## Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60bf3d6e-a5dc-4749-ad8e-04c8804ec345/deploy-status)](https://app.netlify.com/sites/felearning-app/deploys)
 
 ## Open-wc Starter App
 
